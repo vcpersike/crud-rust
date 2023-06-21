@@ -1,1 +1,39 @@
-/target
+# Arquivos compilados
+/target/
+
+# Arquivos gerados pelo Cargo
+Cargo.lock
+
+# Arquivos gerados pelo editor
+**/*.rs.bk
+
+# Arquivos de logs
+**/*.log
+
+# Arquivos gerados pelo sistema de build
+build/
+
+# Arquivos de configuração local
+*.toml
+.env
+# Dependências geradas pelo Cargo
+# (Descomente as linhas relevantes dependendo do gerenciador de dependências que você está usando)
+# Para o Cargo
+# /Cargo.toml
+# /Cargo.lock
+
+# Para o Rustup
+# /.rustup
+
+# Outros arquivos e diretórios
+# /out/
+# /dist/
+# /node_modules/
+# /vendor/
+# /docs/
+# /coverage/
+# /test-results/
+
+# Arquivos gerados pelo IDE (exemplos, personalize conforme necessário)
+.vscode/
+.idea/
